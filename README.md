@@ -9,5 +9,5 @@ rocker/rstudioでは日本語フォントが使えないので、IPAフォント
 rocker/rstudioと同じです。ポートをexposeして実行してください。
 
 ```
-docker run -d -p 8787:8787 shinsukeabe/rstudio-with-ipafont
+docker run -d -p 8787:8787 --name rstudio shinsukeabe/rstudio-with-ipafont
 ```
